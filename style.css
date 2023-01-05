@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+.hero{
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+}
+.text-section{
+    width: 50%;
+    padding: 100px 70px;
+    background: radial-gradient(circle, #f1c8da , #A9BDF8);
+}
+.text-section div{
+    color: white;
+    padding: 90px 0px 90px 60px;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+.text-section div h1{
+    font-size: 55px;
+    font-weight: 800;
+    
+}
+.text-section div span{
+    color: black;
+    font-weight: 800;
+}
+.text-section p{
+    font-size: 15px;
+    padding-top: 30px;
+}
+.form-section{
+    width: 50%;
+    background-color: white;
+    padding: 60px 90px;
+}
+.form-section img{
+    height: 45px;
+    margin-bottom: 40px;
+}
+.form-section .first{
+    margin: 10px 0px;
+    color: rgb(0, 0, 0, 0.4);
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+.form-section .second{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.form-section .third{
+    margin-top: 18px;
+}
+.form-section input{
+    width: 85%;
+    margin-top: 5px;
+    height: 45px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 5px
+}
+.form-section span{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    padding: 15px;
+}
+.form-section span a{
+    color: #4900f3;
+    text-decoration: none;
+}
+.form-section .fourth{
+    color: black;
+}
+.form-section i{
+    color:#4900f3;
+    margin-right: 5px;
+}
+.form-section .login-btn{
+    width: 85%;
+    background: linear-gradient(to left, #e7a6c2 , #8556f3);
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    transition: all ease-in-out 0.2s;
+}
+.form-section .or-line{
+    position: relative;
+border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+width: 85%;
+display: flex;
+flex-direction: column;
+margin-top: 30px;
+margin-bottom:40px ;
+
+}
+.or-line p{
+    position: absolute;
+    top: -10px;
+    right: 200px;
+    background-color: #fff;
+    padding: 0 8px;
+    color: rgb(0, 0, 0, 0.5);
+}
+.signin-btn{
+    width: 85%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 6px;
+    color: black;
+    font-size: 15px;
+    transition: all ease-in-out 0.2s;
+}
+.signin-btn i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.signin-btn:hover{
+    background-color: rgb(0, 0, 0, 0.1);
+}
+.login-btn:hover{
+    font-size: 23px;
+}
+@media(max-width: 768px){
+    .hero{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text-section{
+        width: 100%;
+    }
+    .form-section{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
